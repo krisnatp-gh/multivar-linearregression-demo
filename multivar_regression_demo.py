@@ -632,7 +632,7 @@ def main():
             st.subheader("Statistical Inference for Linear Regression")
             st.markdown("- Required Assumption: **Errors are normally distributed**")
             st.markdown("- For **multivariate linear regression**:")
-            st.latex(r"y_{\text{model}} = \beta_0 + \beta_1 x + ... + \beta_n x")
+            st.latex(r"y_{\text{model}} = \beta_0 + \beta_1 x_1 + ... + \beta_n x_n")
 
 
             st.markdown("***F-test for Multivariate Linear Regression:***")
